@@ -1,4 +1,4 @@
-# smallsh
+# Smallsh
 
 a bash-like shell application written in C.  
 implements custom exit, status, and cd commands.  
