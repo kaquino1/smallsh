@@ -8,7 +8,7 @@ implements custom signal handlers.
 
 ### COMPILE:
 ```
-gcc -std=c99 -g3 main.c -o smallsh  
+gcc -std=c99 -Wall -g3 main.c -o smallsh  
 ```
 ### EXECUTE:
 ```
