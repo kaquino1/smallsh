@@ -12,11 +12,11 @@ gcc -std=c99 -g3 main.c -o smallsh
 ### EXECUTE:
 ./smallsh  
 
-### Command Format:
+#### Command Format:
 command [arg1 arg2 ...] [< input_file] [> output_file] [&]  
 
-### Test Script Permissions:
+#### Test Script Permissions:
 chmod +x ./p3testscript  
 
-### Execute Test Script:
+#### Execute Test Script:
 ./p3testscript > mytestresults 2>&1  
