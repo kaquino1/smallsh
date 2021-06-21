@@ -2,7 +2,7 @@
 
 - a bash-like shell application written in C
 - implements custom exit, status, and cd commands
-- other commands handled by forking and using exec functions
+- all other commands are handled by forking a new process and using exec functions
 - supports background processes, PID expansion, and input/output redirection
 - implements custom signal handlers  
 
