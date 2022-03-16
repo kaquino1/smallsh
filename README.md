@@ -4,28 +4,34 @@
 - implements custom exit, status, and cd commands
 - all other commands are handled by forking a new process and using exec functions
 - supports background processes, PID expansion, and input/output redirection
-- implements custom signal handlers  
+- implements custom signal handlers
 
 ### COMPILE:
+
 ```
-gcc -std=c99 -Wall -g3 main.c -o smallsh  
+gcc -std=c99 -Wall -g3 main.c -o smallsh
 ```
+
 ### EXECUTE:
+
 ```
-./smallsh  
+./smallsh
 ```
 
 #### Command Format:
+
 ```
-command [arg1 arg2 ...] [< input_file] [> output_file] [&]  
+command [arg1 arg2 ...] [< input_file] [> output_file] [&]
 ```
 
-#### Test Script Permissions:
+#### Set Test Script Permissions:
+
 ```
-chmod +x ./p3testscript  
+chmod +x ./p3testscript
 ```
 
 #### Execute Test Script:
+
 ```
-./p3testscript > mytestresults 2>&1  
+./p3testscript > mytestresults 2>&1
 ```

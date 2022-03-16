@@ -150,7 +150,8 @@ void userInput()
     }
 }
 
-// ADAPTED FROM STACK OVERFLOW https://stackoverflow.com/questions/32413667/replace-all-occurrences-of-a-substring-in-a-string-in-c/32413923
+// ADAPTED FROM STACK OVERFLOW
+// https://stackoverflow.com/questions/32413667/replace-all-occurrences-of-a-substring-in-a-string-in-c/32413923
 void varExpansion(char *line, const char *find, const char *replacement)
 {
     char buffer[2048] = {0};
