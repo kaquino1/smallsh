@@ -32,11 +32,11 @@ The variable $$ is expanded to the process ID of smallsh
 #### Set Test Script Permissions:
 
 ```
-chmod +x ./p3testscript
+chmod +x ./testscript
 ```
 
 #### Execute Test Script:
 
 ```
-./p3testscript > mytestresults 2>&1
+./testscript > mytestresults 2>&1
 ```
